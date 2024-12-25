@@ -1,6 +1,6 @@
 title: 'backdooring EC2 securtiy groups'
 status: experimental
-description: 'Rule detected the inserting process of backdoor access into EC2 security groups'
+description: 'Rule detected the inserting process of backdoor access into EC2 security groups and allowing good IPs'
 author: 'Michelle Khalil'
 logsource:
     service: "cloudtrail"
