@@ -6,7 +6,7 @@ Hello! This repository contains a set of my detection rules to improve detection
 ## SIGMA Rules
 
 The `SIGMA-rules` directory contains the following SIGMA rules :
-- **Detection with SIGMA course Labs** - 5 Labs solutions.
+- **Detection with SIGMA course Labs** - 6 Labs solutions.
 
 
 
