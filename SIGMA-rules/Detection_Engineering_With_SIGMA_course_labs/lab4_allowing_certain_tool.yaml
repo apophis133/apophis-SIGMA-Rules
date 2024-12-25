@@ -1,0 +1,17 @@
+title: 'Backdooring EC2 Security Groups'
+status: experimental
+description: 'Rule detected the insertion process of backdoor access into EC2 security groups'
+author: 'Michelle Khalil'
+logsource:
+    service: "cloudtrail"
+detection:
+    event_source:
+        eventSource: ec2.amazonaws.com
+        eventName: AuthorizeSecurityGroupIngress
+    filter_good_IPs:
+        userAgent|contains:
+            - "IntAuto"
+    condition: all of event_source and not filter_good_IPs
+fields: []
+falsepositives: []
+level: critical
