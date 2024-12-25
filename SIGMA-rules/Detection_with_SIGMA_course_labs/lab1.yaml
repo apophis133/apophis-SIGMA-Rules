@@ -1,0 +1,14 @@
+title: 'windows eventlog cleared'
+status: experimental
+description: 'rule detected the  eventlog clearing by looking for eventid 104.'
+author: 'Michelle khalil'
+logsource:
+    product: windows
+    service: system
+detection:
+    selection:
+       EventID: '104'
+    condition: selection
+fields: []
+falsepositives: []
+level: critical
