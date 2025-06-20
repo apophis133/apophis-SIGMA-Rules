@@ -1,4 +1,4 @@
-# apophis-SIGMA-Rules
+# SIGMA-Rules
 Hello! This repository contains a set of my detection rules to improve detection and hunting visibility and context. Where applicable, SIGMA rules and real attacking scenarios detection
 
 
